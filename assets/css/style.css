@@ -1,0 +1,369 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    letter-spacing: 0;
+    font-family: 'Rubik';
+    background-color: #eeaa8b;
+    color: #ffffff;
+}
+
+a,
+.btn {
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.hero-text-sec .row {
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.hero-text-sec {
+    padding: 40px 0px;
+    justify-content: space-between;
+    height: 89%;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0
+}
+
+.mobile-num {
+    transition: 0.3s;
+    display: flex;
+    color: #fff;
+    background: #f5f4f7;
+    height: 60px;
+    font-size: 18px;
+    padding: 0px 5px;
+    padding-right: 20px;
+    border: 1px solid #ffffff57;
+    border-radius: 103px;
+    align-items: center;
+}
+
+.mobile-num:hover {
+    color: #fff;
+}
+
+.mobile-num-img {
+    position: relative;
+    color: #fff;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #eeac03 0%, #daa526 8%, #9f7928 30%, #976800 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #dca216 8%, #e7a90b 25%, #e1a511 62.5%, #5d4a1f 100%);
+    width: 46px;
+    height: 46px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.mobile-num-img img {
+    filter: invert(1);
+    width: 25px;
+}
+
+.whatsapp-num-img img {
+    filter: invert(1);
+    width: 25px;
+}
+
+.whatsapp-num-img {
+    position: relative;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.contact span {
+    font-weight: 600;
+}
+
+.contact-info {
+    background-color: darkcyan !important;
+}
+
+.contact-num-info {
+    max-width: 345px;
+}
+
+.whatsaap-info,
+.contact-info {
+    transition: 0.3s;
+    display: flex;
+    color: #fff;
+    border: 1px solid #ffffff57;
+    background: #44c054;
+    height: 50px;
+    font-size: 18px;
+    justify-content: center;
+    padding: 0px 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.contact a:hover {
+    color: #fff;
+}
+
+.number-info:hover {
+    text-decoration: underline;
+}
+
+.number-info {
+    font-size: 31px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    color: #000000;
+}
+
+.contact {
+    display: flex;
+    text-align: center;
+    column-gap: 18px;
+    width: max-content;
+    position: relative;
+    margin-bottom: 38px;
+    z-index: 1;
+    border-radius: 13px;
+    justify-content: center;
+}
+
+.hero-section {
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-position: center center;
+}
+
+.hero-img-right img {
+    width: 100%;
+    padding-left: 1PX;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.header .row {
+    justify-content: end;
+    align-items: center;
+    padding: 6px;
+    padding-bottom: 0px;
+}
+
+.small-btn {
+    font-size: 19px;
+    display: inline-flex;
+    padding: 12px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 10px;
+    align-items: center;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #eeac03 0%, #daa526 8%, #9f7928 30%, #976800 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #dca216 8%, #e7a90b 25%, #e1a511 62.5%, #5d4a1f 100%);
+    border: 1px solid #fff;
+    gap: 6px;
+    position: relative;
+    animation: shadowPulse 1s infinite;
+}
+
+@keyframes shadowPulse {
+    0% {
+        box-shadow: 0 0 0 0px rgb(157 118 33);
+    }
+    100% {
+        box-shadow: 0 0 0 35px rgba(82, 221, 103, 0);
+    }
+}
+
+.small-btn:hover {
+    color: #fff;
+    transform: translate(0, -5px);
+}
+
+.small-btn:hover img {
+    filter: none;
+}
+
+.small-btn img {
+    width: 28px;
+    margin-right: 5px;
+}
+
+.hero-text h1 {
+    margin-bottom: 40px;
+    color: #000;
+    font-size: 64px;
+    line-height: 78px;
+    font-weight: 600;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.header {
+    position: absolute;
+    right: 34px;
+}
+
+.header-menu ul {
+    margin: 0px -20px;
+}
+
+.header-menu ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.hero-text h5 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero-img-inner img {
+    max-width: 567px;
+}
+
+.hero-img-inner {
+    text-align: right;
+}
+
+.text-box p {
+    font-size: 18px;
+    color: #383838;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.hero-text {
+    padding-left: 164px;
+    width: 50%;
+}
+
+.hero-img-right {
+    width: 50%;
+}
+
+@media(max-width:1400px) {
+    .hero-text {
+        padding-left: 34px;
+    }
+    .hero-text-sec {
+        height: 105%;
+    }
+}
+
+@media(max-width:1200px) {
+    .hero-text {
+        padding-left: 34px;
+    }
+    .hero-text-sec {
+        height: 100%;
+    }
+}
+
+@media(max-width:992px) {
+    .hero-text h1 {
+        margin-bottom: 40px;
+        color: #000;
+        font-size: 52px;
+        line-height: 55px;
+    }
+}
+
+@media(max-width:767px) {
+    .hero-text h1 {
+        margin-bottom: 20px;
+        color: #000;
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+@media(max-width:575px) {
+    .hero-text h1 {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .whatsapp-num-img img {
+        filter: invert(1);
+        width: 17px;
+    }
+    .hero-text-sec {
+        justify-content: center;
+    }
+    .contact span {
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .hero-text {
+        padding-left: 0;
+    }
+    .contact-num-info {
+        max-width: auto;
+    }
+    .hero-text-sec {
+        padding: 11px 0px;
+        height: auto;
+    }
+    .header .row {
+        justify-content: left;
+    }
+    .hero-section {
+        background: #ededed;
+        display: flex;
+    }
+    .header {
+        position: absolute;
+        right: 22%;
+        top: 0;
+    }
+    .small-btn {
+        padding: 8px 9px;
+        font-size: 13px;
+    }
+    .whatsaap-info,
+    .contact-info {
+        height: 32px;
+        justify-content: center;
+        padding: 0px 7px;
+        border-radius: 7px;
+    }
+    .contact {
+        margin-bottom: 10px;
+        column-gap: 5px;
+    }
+    .number-info {
+        font-size: 17px;
+        font-weight: 500;
+        justify-content: left;
+        padding-bottom: 10px;
+    }
+}
